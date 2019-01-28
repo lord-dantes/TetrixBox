@@ -1,0 +1,48 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.blog_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title.blog_title Блог
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="#") Узнать подробнее
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="#") Узнать подробнее
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="#") Узнать подробнее
+				.col-md-9
+				.col-md-3
+					.gallery_listing-box
+						span.gallery_listing-next
+							include ../../img/path-grey.svg
+						ul.gallery-listing_items
+							li.gallery_item.gallery_item-active
+								a(class="gallery_link" href="#") 1
+							li.gallery_item
+								a(class="gallery_link" href="#") 2
+							li.gallery_item
+								a(class="gallery_link" href="#") 3
+							li.gallery_item
+								a(class="gallery_link" href="#") 4
+							li.gallery_item
+								a(class="gallery_link" href="#") 5
+						span.gallery_listing-prev
+							include ../../img/path-grey.svg
+	include ../templates/footer.pug

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>5F72F5E0-0DDB-4B3C-80B7-D404DD6F9371</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Калькулятор-(Моб)" transform="translate(-340.000000, -25.000000)" fill="#4F4F4F">
+            <g id="Шапка" transform="translate(20.000000, 12.000000)">
+                <g id="menu-button-of-three-horizontal-lines" transform="translate(320.000000, 13.000000)">
+                    <path d="M13.5483871,0 L1.4516129,0 C0.653225806,0 0,0.675 0,1.5 C0,2.325 0.653225806,3 1.4516129,3 L13.5483871,3 C14.3467742,3 15,2.325 15,1.5 C15,0.675 14.3467742,0 13.5483871,0 Z" id="Path"></path>
+                    <path d="M13.5483871,5.5 L1.4516129,5.5 C0.653225806,5.5 0,6.175 0,7 C0,7.825 0.653225806,8.5 1.4516129,8.5 L13.5483871,8.5 C14.3467742,8.5 15,7.825 15,7 C15,6.175 14.3467742,5.5 13.5483871,5.5 Z" id="Path"></path>
+                    <path d="M13.5483871,11 L1.4516129,11 C0.653225806,11 0,11.675 0,12.5 C0,13.325 0.653225806,14 1.4516129,14 L13.5483871,14 C14.3467742,14 15,13.325 15,12.5 C15,11.675 14.3467742,11 13.5483871,11 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

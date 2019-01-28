@@ -1,0 +1,46 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.about-us_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title О компании TetrisBOX
+				.col-md-12
+					.about-us_info-box
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ducimus cum aliquam reiciendis dolorum id eum in corporis optio deserunt praesentium, maiores nulla aperiam voluptas voluptates molestias facilis quod nisi vel rem? Laudantium, optio ipsa tempora modi magni officia quod veritatis esse ducimus aliquam enim asperiores soluta sed amet distinctio dolor reiciendis ipsum, nostrum eveniet ipsam perferendis. Totam veritatis ratione cum nostrum asperiores amet tempore repudiandae modi, at provident, corrupti cupiditate dignissimos magni ex saepe ea alias similique sed ipsa accusamus harum odio tempora esse eaque nulla. Sed placeat quae architecto numquam sunt, obcaecati, at fuga, quis ipsum deleniti ut!
+					a(class="about-us_info-boxing" href="javascript:void(0);")
+						| Читать подробнее
+						include ../../img/path.svg
+	section.clients-works_wrapper
+		.container
+			.row
+				.col-md-12
+					h2.clients-works_title Почему клиенты работают #[br]именно с нами?
+				.col-md-12.clients-works_wrapper-xs-12
+					.clients-works_box
+						.clients-works_row
+							.clients-works_item
+								| Вы арендуете изолированный бокс в теплом, сухом и чистом помещении для организации хранения вещей площадью от 1 до 35м² и больше, получив следующие преимущества
+							.clients-works_item
+								include ../../img/full-size-icon.svg
+								p.clients-works_item-title Индивидуальный #[br]размер бокса
+								p.clients-works_item-info Выбирайте размер TetrisBox и не переплачивайте за неиспользуемое пространство
+							.clients-works_item
+								include ../../img/24h-icon-black.svg
+								p.clients-works_item-title Доступность 24/7
+								p.clients-works_item-info Вы получаете доступ к Вашему TetrisBox в любое удобное для Вас время
+						.clients-works_row
+							.clients-works_item
+								include ../../img/placeholder.svg
+								p.clients-works_item-title Удобное #[br]месторасположение
+								p.clients-works_item-info TetrisBox находится в Печерском районе адрес: Железнодорожное шоссе 25
+							.clients-works_item
+								include ../../img/coin-icon.svg
+								p.clients-works_item-title Лучшая цена #[br]аренды
+								p.clients-works_item-info Понятные и доступные цены #[br]Скидки на длительную аренду #[br]TetrisBox
+							.clients-works_item
+								include ../../img/customer-icon.svg
+								p.clients-works_item-title Сотни довольных #[br]клиентов
+								p.clients-works_item-info За время существования компании TetrisBox все клиенты остались довольны нашими услугами
+	include ../templates/footer.pug

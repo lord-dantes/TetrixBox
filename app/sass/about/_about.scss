@@ -1,0 +1,92 @@
+.about-us{
+	&_title{
+		color: #4F4F4F;
+		font-family: Rubik-Black;
+		font-size: 40px;
+		line-height: 75px;
+		text-align: center;
+		margin-bottom: 40px;
+		&::before{
+			content:"";
+			position: absolute;
+			top: 5%;
+			height: 11px;
+			width: 95px;
+			left: 0;
+			right: 0;
+			margin:0 auto;
+			background: $main-color;
+		}
+	}
+	&_info-box{
+		color: #9E9E9E;
+		font-family: Rubik-Regular;
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 50px;
+		&ing{
+			display: none;
+		}
+	}
+}
+.clients-works{
+	&_title{
+		color: #4F4F4F;
+		font-family: Rubik-Black;
+		font-size: 40px;
+		line-height: 45px;
+		text-align: center;
+		margin-bottom: 65px;
+	}
+	&_box{
+		margin-bottom: 105px;
+		& > .clients-works_row:first-child {
+			& .clients-works_item:nth-child(odd){
+				background: #FAFAFA;
+			}
+			& > .clients-works_item:first-child{
+				background: $main-color;
+				justify-content: center;
+				color: #FFFFFF;
+				font-family: Rubik-Bold;
+				font-size: 14px;
+				text-align: left;
+				line-height: 20px;
+			}
+		}
+		& > .clients-works_row:nth-child(2){
+			& .clients-works_item:nth-child(even){
+				background: #FAFAFA;
+			}
+		}
+	}
+	&_row{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&_item{
+		display: flex;
+		flex-direction: column;
+		padding: 60px 40px;
+		align-items: center;
+		text-align: center;
+		justify-content: space-between;
+		width: 100%;
+		height: 350px;
+		&-title{
+			color: #4F4F4F;
+			font-family: Rubik-Bold;
+			font-size: 18px;
+			line-height: 22px;
+			text-align: center;
+		}
+		&-info{
+			color: #9E9E9E;
+			font-family: Rubik-Regular;
+			font-size: 14px;
+			line-height: 20px;
+			text-align: center;
+		}
+	}
+}

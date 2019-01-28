@@ -1,0 +1,379 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.banner
+		.container
+			.row
+				.col-md-12
+					.banner-info-box_img
+						video(src="img/banner-gif.mp4" autoplay)
+				.col-md-12
+					.banner-info
+						h1.banner-info_title Сэкономьте место в #[br] вашем помещении
+						h2.banner-info_subtitle Храните свои вещи из дома и офиса надежно и ответственно,#[br] в удобном месте с доступом 24/7
+						div.banner-info-box_btn
+							a(class="banner-info_link" href="javascript:void(0);") Ближайший склад
+							a(class="banner-info_link" href="javascript:void(0);") Калькулятор
+							a(class="banner-info_link" href="javascript:void(0);") Оставить заявку
+	section.calc-about_wrapper
+		.container
+			.row
+				.col-xs-12
+					a(class="banner-info_link banner-info_link-individual" href="javascript:void(0);") Калькулятор цены
+					.calc-about_box-one
+						.calc-about_box-forhome
+							p
+								include ../../img/house-icon.svg
+								|	Для дома
+							ul
+								li
+									span Ремонт
+								li
+									span Переезд
+								li
+									span Личные вещи и многое другое
+						.calc-about_box-forbusiness
+							p
+								include ../../img/portfolio.svg
+								| Для бизнеса
+							ul
+								li
+									span Товары
+								li
+									span Техника
+								li
+									span Документы и многое другое
+					.calc-about_box-two
+						.calc-about_box-road
+							p
+								include ../../img/portfolio.svg
+								span Шины
+						.calc-about_box-containers
+							p
+								include ../../img/container-icon-gray.svg
+								span Контейнеры
+				.col-xs-12
+					div.wrapper_block-stats
+						div.block-stats_box
+							p 3 года
+							p Опыта на рынке
+						div.block-stats_box
+							p 300 &lt;
+							p Довольных клиентов
+						div.block-stats_box
+							p 4000 + м#[sup 2]
+							p Площади складов
+				h2.calc-about_title-aboutus О нас
+				iframe(width="100%" height="250" src="https://www.youtube.com/embed/jh6PEENFILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+				.col-xs-12
+					a(class="calc-about_sublink-aboutus" href="#") Оставить заявку
+	//- section.work-this_wrapper
+	section.banner-youtube
+		.container
+			.row
+				.col-md-12
+					h2.banner-youtube_title Я расскажу вам как у #[br]нас все работает. Включайте
+					div.banner-youtube-box_video
+						iframe(width="915" height="502" src="https://www.youtube.com/embed/jh6PEENFILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+	section.work-this_wrapper
+		.container
+			.row
+				.col-md-12
+					h2.work-this_title Как это работает?
+				.col-md-12
+					.work-this_box
+						.work-this_box-item
+							img(src="img/area.svg", alt="")
+							p.work-this_box-item-title Выберите #[br]параметры
+							p.work-this_box-item-info Вы можете выбрать нужный Вам #[br]размес бокса и срок аренды
+						.work-this_box-item
+							img(src="img/shield.svg", alt="")
+							p.work-this_box-item-title Забронируйте #[br]Ваш бокс
+							p.work-this_box-item-info Вы можете сделать это по #[br]номеру телефона или онлайн
+						.work-this_box-item
+							img(src="img/boxes.svg", alt="")
+							p.work-this_box-item-title Пользуйтесь #[br]услугой
+							p.work-this_box-item-info Можете перевозить Ваши вещи #[br]на свой личный склад
+	section.container-have
+		.container
+			.row
+				.col-md-12
+					h2.container-have_title Вы можете хранить в #[br]своем TetrisBOX:
+				.col-md-12
+					.container-have_row
+						.container-have_box-item
+							img(src="img/kitchen.svg", alt="")
+							p Кухонная #[br]мебель
+						.container-have_box-item
+							img(src="img/fashion.svg", alt="")
+							p Хранение любого #[br]вида одежды
+						.container-have_box-item
+							img(src="img/alloy-wheel.svg", alt="")
+							p Шины, диски #[br]и запчасти
+							span.container-have_box-item-icon
+								include ../../img/icon-shape.svg
+								.container-have_box-item-dropdown
+									p Функция «Хранение шин»
+									p В нашем сервисе доступа отдельная функция для хранениея Ваших шин и дисков. Для них будут пердоставлены специальные условия хранения.
+									p Cтоимость услуги: #[span 450 грн / мес]
+						.container-have_box-item
+							img(src="img/sofa.svg", alt="")
+							p Хранение любой #[br]мебели
+					.container-have_row
+						.container-have_box-item
+							img(src="img/shape.svg", alt="")
+							p Велосипеды #[br]разных размеров
+						.container-have_box-item
+							img(src="img/box.svg", alt="")
+							p Хранение различных #[br]товаров
+						.container-have_box-item
+							img(src="img/file.svg", alt="")
+							p Любые виды #[br]документов
+						.container-have_box-item
+							img(src="img/printer.svg", alt="")
+							p Офисная #[br]техника
+	section.calc-tabs_wrapper
+		.container
+			.row
+				.col-md-12
+					h2.calc-tabs_title Боксы разных размеров #[br]для разных потребностей
+				.col-md-12
+					.tab
+						ul.tabs
+							li
+								a(href='#') 1 м #[sup 3]
+							li
+								a(href='#') 5 м #[sup 3]
+							li
+								a(href='#') 15 м #[sup 3]
+							li
+								a(href='#') 50 м #[sup 3]
+							li
+								a(href='#') 100 м #[sup 3]
+						.tab_content
+							.tabs_item
+								.calc-tabs_box-item
+									.calc-tabs_box-banner
+										.calc-tabs_box-img
+											img(src="img/1m3.png", alt="")
+									.calc-tabs_box-info
+										h3.calc-tabs_box-info_title Бокс «Минимальный»
+										p.calc-tabs_box-info_subtitle Площадь бокса
+										p.calc-tabs_box-info_title-selectcar Выберите авто для приблизительного расчета объема:
+										ul.calc-tabs_box-info_items-car
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon.svg
+													span 1-2 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-two.svg
+													span 3-5 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-four.svg
+													span 6-8 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-three.svg
+													span 9-12 м #[sup 2]
+										div.calc-tabs_box-info_view-price
+											span 1 #[span м #[sup 3]]
+											span #[span 379] грн / месяц
+										div.calc-tabs-box_info-box-items-date
+											ul.calc-tabs_box-info_items-date
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date.calc-tabs_box-info_link-date-active(href="") 1 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 3 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 6 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 1 год
+										a.calc-tabs_box-info_to-order Заказать прямо сейчас
+							.tabs_item
+								.calc-tabs_box-item
+									.calc-tabs_box-banner
+										.calc-tabs_box-img
+											img(src="img/1m3.png", alt="")
+									.calc-tabs_box-info
+										h3.calc-tabs_box-info_title Бокс «Минимальный»
+										p.calc-tabs_box-info_subtitle Площадь бокса
+										p.calc-tabs_box-info_title-selectcar Выберите авто для приблизительного расчета объема:
+										ul.calc-tabs_box-info_items-car
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon.svg
+													span 1-2 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-two.svg
+													span 3-5 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-four.svg
+													span 6-8 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-three.svg
+													span 9-12 м #[sup 2]
+										div.calc-tabs_box-info_view-price
+											span 1 #[span м #[sup 3]]
+											span #[span 379] грн / месяц
+										div.calc-tabs-box_info-box-items-date
+											ul.calc-tabs_box-info_items-date
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date.calc-tabs_box-info_link-date-active(href="") 1 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 3 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 6 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 1 год
+										a.calc-tabs_box-info_to-order Заказать прямо сейчас
+							.tabs_item
+								.calc-tabs_box-item
+									.calc-tabs_box-banner
+										.calc-tabs_box-img
+											img(src="img/1m3.png", alt="")
+									.calc-tabs_box-info
+										h3.calc-tabs_box-info_title Бокс «Минимальный»
+										p.calc-tabs_box-info_subtitle Площадь бокса
+										p.calc-tabs_box-info_title-selectcar Выберите авто для приблизительного расчета объема:
+										ul.calc-tabs_box-info_items-car
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon.svg
+													span 1-2 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-two.svg
+													span 3-5 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-four.svg
+													span 6-8 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-three.svg
+													span 9-12 м #[sup 2]
+										div.calc-tabs_box-info_view-price
+											span 1 #[span м #[sup 3]]
+											span #[span 379] грн / месяц
+										div.calc-tabs-box_info-box-items-date
+											ul.calc-tabs_box-info_items-date
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date.calc-tabs_box-info_link-date-active(href="") 1 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 3 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 6 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 1 год
+										a.calc-tabs_box-info_to-order Заказать прямо сейчас
+							.tabs_item
+								.calc-tabs_box-item
+									.calc-tabs_box-banner
+										.calc-tabs_box-img
+											img(src="img/1m3.png", alt="")
+									.calc-tabs_box-info
+										h3.calc-tabs_box-info_title Бокс «Минимальный»
+										p.calc-tabs_box-info_subtitle Площадь бокса
+										p.calc-tabs_box-info_title-selectcar Выберите авто для приблизительного расчета объема:
+										ul.calc-tabs_box-info_items-car
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon.svg
+													span 1-2 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-two.svg
+													span 3-5 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-four.svg
+													span 6-8 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-three.svg
+													span 9-12 м #[sup 2]
+										div.calc-tabs_box-info_view-price
+											span 1 #[span м #[sup 3]]
+											span #[span 379] грн / месяц
+										div.calc-tabs-box_info-box-items-date
+											ul.calc-tabs_box-info_items-date
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date.calc-tabs_box-info_link-date-active(href="") 1 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 3 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 6 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 1 год
+										a.calc-tabs_box-info_to-order Заказать прямо сейчас
+							.tabs_item
+								.calc-tabs_box-item
+									.calc-tabs_box-banner
+										.calc-tabs_box-img
+											img(src="img/1m3.png", alt="")
+									.calc-tabs_box-info
+										h3.calc-tabs_box-info_title Бокс «Минимальный»
+										p.calc-tabs_box-info_subtitle Площадь бокса
+										p.calc-tabs_box-info_title-selectcar Выберите авто для приблизительного расчета объема:
+										ul.calc-tabs_box-info_items-car
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon.svg
+													span 1-2 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-two.svg
+													span 3-5 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-four.svg
+													span 6-8 м #[sup 2]
+											li.calc-tabs_box-info_item-car
+												a.calc-tabs_box-info_link-car(href="#")
+													include ../../img/car-icon-three.svg
+													span 9-12 м #[sup 2]
+										div.calc-tabs_box-info_view-price
+											span 1 #[span м #[sup 3]]
+											span #[span 379] грн / месяц
+										div.calc-tabs-box_info-box-items-date
+											ul.calc-tabs_box-info_items-date
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date.calc-tabs_box-info_link-date-active(href="") 1 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 3 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 6 мес
+												li.calc-tabs_box-info_item-date
+													a.calc-tabs_box-info_link-date(href="") 1 год
+										a.calc-tabs_box-info_to-order Заказать прямо сейчас
+	section.reviews_wrapper
+		.container
+			.row
+				.col-md-12
+					h2.reviews_title Отзывы о нас
+				.col-md-12
+					.owl-carousel.reviews-carousel
+						div.reviews_box
+							iframe(width="915" height="502" src="https://www.youtube.com/embed/jh6PEENFILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+						div.reviews_box
+							iframe(width="915" height="502" src="https://www.youtube.com/embed/jh6PEENFILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+						div.reviews_box
+							iframe(width="915" height="502" src="https://www.youtube.com/embed/jh6PEENFILo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+	section.find-us_wrapper
+		.container-fluid
+			.col-md-12
+				h2.find-us_title Ищите нас тут
+				div.find-us_box-maps
+					div.find-us_box-map
+						#map-one_build
+						a(href="#") Проложить маршрут
+					div.find-us_box-map
+						#map-two_build
+						a(href="#") Проложить маршрут
+	include ../templates/footer.pug
+

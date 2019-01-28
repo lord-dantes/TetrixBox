@@ -1,0 +1,58 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.gallery_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title.gallery_title Галерея
+				.col-md-12
+					.gallery_info-box
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit vero neque ad eaque ut dolores, tempore illo suscipit laboriosam natus cum ex! Aut odit, qui non sit nostrum velit culpa sint facilis, quos voluptatibus omnis totam et minima quis mollitia reiciendis ex nobis commodi animi ducimus vero! Accusantium corporis fugit accusamus ex fuga obcaecati similique omnis voluptas quo adipisci saepe facere a voluptatem, eaque delectus quisquam quidem, sunt doloremque quia! Ab saepe laborum quas ad cupiditate minima ullam tempore similique! Recusandae optio vero distinctio ut, error modi quo repellendus minima, suscipit, nihil temporibus. Eum doloremque expedita ea incidunt voluptate est.
+				.col-md-12
+					.row
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-4
+							.gallery
+								a(href='img/mobile-banner.png')
+									img(src='img/mobile-banner.png')
+						.col-md-9
+						.col-md-3
+							.gallery_listing-box
+								span.gallery_listing-next
+									include ../../img/path-grey.svg
+								ul.gallery-listing_items
+									li.gallery_item.gallery_item-active
+										a(class="gallery_link" href="#") 1
+									li.gallery_item
+										a(class="gallery_link" href="#") 2
+									li.gallery_item
+										a(class="gallery_link" href="#") 3
+									li.gallery_item
+										a(class="gallery_link" href="#") 4
+									li.gallery_item
+										a(class="gallery_link" href="#") 5
+								span.gallery_listing-prev
+									include ../../img/path-grey.svg
+
+
+	include ../templates/footer.pug

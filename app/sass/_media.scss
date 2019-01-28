@@ -1,0 +1,27 @@
+@import "index/index";
+@import "about/about";
+@import "gallery/gallery";
+@import "faq/faq";
+@import "blog/blog";
+
+@media (max-width: 1200px) {
+	@import "index/index-max-1200";
+	@import "about/about-max-1200";
+	@import "gallery/gallery-max-1200";
+	@import "faq/faq-max-1200";
+	@import "blog/blog-max-1200";
+}
+@media (max-width: 992px) {
+	@import "index/index-max-992";
+	@import "about/about-max-992";
+	@import "gallery/gallery-max-992";
+	@import "faq/faq-max-992";
+	@import "blog/blog-max-992";
+}
+@media (max-width: 767px) {
+	@import "index/index-max-767";
+	@import "about/about-max-767";
+	@import "gallery/gallery-max-767";
+	@import "faq/faq-max-767";
+	@import "blog/blog-max-767";
+}

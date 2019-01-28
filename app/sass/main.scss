@@ -1,0 +1,9 @@
+@import "variables-functions-and-mixins";
+
+sup{
+	right: 0.4em;
+	font-size: 60%;
+}
+
+@import 'media';
+@import "fonts";

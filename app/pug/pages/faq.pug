@@ -1,0 +1,25 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.faq_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title.faq_title Часто задаваемые вопросы :
+				.col-md-12.fq-items
+					dl
+						dd
+							| Yes, an FAQ question does belong in the space above. This space here is for the answer.
+						dt
+							| Что такое бокс для индивидуального хранения?
+							.faq-toggle
+								include ../../img/path.svg
+					dl
+						dd
+							| Yes, an FAQ question does belong in the space above. This space here is for the answer.
+						dt
+							| Что такое бокс для индивидуального хранения?
+							.faq-toggle
+								include ../../img/path.svg
+
+	include ../templates/footer.pug

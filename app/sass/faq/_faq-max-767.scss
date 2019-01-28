@@ -1,0 +1,10 @@
+dl {
+	font-size: 1.2em;
+}
+.faq_wrapper{
+	padding: 20px;
+	margin-bottom: 45px;
+	& .fq-items dl > dt{
+		padding: 13px 25px;
+	}
+}
