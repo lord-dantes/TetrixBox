@@ -1,0 +1,45 @@
+.for-business{
+	&_wrapper{
+		margin-bottom: 135px;
+	}
+	&_subtitle{
+		color: #4F4F4F;
+		font-family: Rubik-Bold;
+		font-size: 30px;
+		line-height: 42px;
+		margin-bottom: 33px;
+	}
+	&-info_box{
+		color: #4F4F4F;
+		font-family: Rubik-Regular;
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 33px;
+	}
+	&-info_unline-p{
+		color: #4F4F4F;
+		font-family: Rubik-Bold;
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 33px;
+	}
+	&_box-img img{
+		width: 100%;
+		height: 100%;
+	}
+	&_addon{
+		margin-bottom: 100px;
+		&-title{
+			color: #4F4F4F;
+			font-family: Rubik-Black;
+			font-size: 40px;
+			line-height: 75px;
+			margin-bottom: 50px;
+			text-align: center;
+		}
+		& .clients-works_box > .clients-works_row:first-child > .clients-works_item:first-child{
+			background: #FAFAFA;
+			justify-content: space-between;
+		}
+	}
+}

@@ -3,7 +3,7 @@ header.header
 		.row
 			.col-md-4.col-xs-12
 				.header-box_logo
-					img(src="img/logo-site.png", alt="")
+					include ../../img/logo-site.svg
 					.header-social_box-links
 						.header-social_box-img-24-7
 							img(src="img/24h-icon_redgrey.svg", alt="")
@@ -14,23 +14,58 @@ header.header
 								img(src="img/telegram.svg", alt="")
 							a(href="#")
 								img(src="img/whatsapp.svg", alt="")
+					.header-toggle_icon
+						include ../../img/menu-button-of-three-horizontal-lines.svg
 			.col-md-8.col-xs-12
 				.header-nav_box
 					nav.header-nav
+						.header-mobile-nav_box
+							img(src="img/mobile-logo.png", alt="")
+							.header-mobile-social_box-social-links
+								a(href="#")
+									include ../../img/viber.svg
+								a(href="#")
+									include ../../img/telegram.svg
+								a(href="#")
+									include ../../img/whatsapp.svg
+							.header-toggle_icon
+								include ../../img/icon-close.svg
 						ul.header-nav_items
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") Главная
+								a.header-nav_link(href="/") Главная
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") О нас
+								a.header-nav_link(href="about.html") О нас
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") Галерея
+								a.header-nav_link(href="gallery.html") Галерея
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") FAQ
+								a.header-nav_link(href="faq.html") FAQ
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") Блог
+								a.header-nav_link(href="blogs.html") Блог
 							li.header-nav_item
-								a.header-nav_link(href="javascript:void(0)") Контакты
-
+								a.header-nav_link(href="contacts.html") Контакты
+						ul.header-nav_lang-box
+							li.header-nav_lang-item
+								a(href="#")
+									img(src="img/russia.svg", alt="")
+									| RU
+							li.header-nav_lang-item
+								a(href="#")
+									img(src="img/united-kingdom.svg", alt="")
+									| EN
+							li.header-nav_lang-item
+								a(href="#")
+									img(src="img/ukraine.svg", alt="")
+									| UA
+						ul.footer_social-items.footer_social-items-mobile
+							li.footer_social-item
+								a(href="#")
+									img(src="../img/facebook-logo-button.svg", alt="")
+							li.footer_social-item
+								a(href="#")
+									img(src="../img/instagram-logo.svg", alt="")
+							li.footer_social-item
+								a(href="#")
+									img(src="../img/google-plus-logo-button.svg", alt="")
 					.header-social_box
 						.header-mobile_box
 							.header-social_box-metro
@@ -103,10 +138,39 @@ header.header
 					.header-nav_page-links
 						ul.header-nav_page-links-items
 							li.header-nav_page-link-item
-								a(href="#").header-nav_page-link-item-active Склад для дома
+								a(href="for-home.html") Склад для дома
 							li.header-nav_page-link-item
-								a(href="#") Склад для бизнеса
+								a(href="for-business.html") Склад для бизнеса
 							li.header-nav_page-link-item
 								a(href="#") Контейнеры
 							li.header-nav_page-link-item
 								a(href="#") Шины
+hr.header-hr
+.modal-background
+.modal-nearest_box
+	.modal-closed
+		include ../../img/icon-close.svg
+	#map-one_build
+	.modal-info.banner-info-box_btn
+		div
+			span
+				include ../../img/maps-and-flags.svg
+				| Адрес
+			p Железнодорожное шоссе 25
+		div
+			span
+				include ../../img/call-icon-blue.svg
+				| Телефон
+			p +380 (67) 730-57-75
+		a(class="banner-info_link modal-link" href="javascript:void(0);") Оставить заявку
+.modal-request.banner-info-box_btn
+	.modal-closed
+		include ../../img/icon-close.svg
+	p Живите дома, а не на складе!
+	p А Ваши вещи будут жить в удобных TetrisBOX рядом, не мешая и всегда под-рукой
+	form(action="POST")
+		div
+			span
+				include ../../img/smartphone (2).svg
+			input(type="text" placeholder="Ваш телефон")
+	a(class="banner-info_link modal-link" href="javascript:void(0);") Продолжить

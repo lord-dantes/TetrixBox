@@ -3,6 +3,10 @@
 @import "gallery/gallery";
 @import "faq/faq";
 @import "blog/blog";
+@import "blog-item/blog-item";
+@import "contacts/contacts";
+@import "for-business/for-business";
+@import "for-home/for-home";
 
 @media (max-width: 1200px) {
 	@import "index/index-max-1200";
@@ -10,6 +14,10 @@
 	@import "gallery/gallery-max-1200";
 	@import "faq/faq-max-1200";
 	@import "blog/blog-max-1200";
+	@import "blog-item/blog-item-max-1200";
+	@import "contacts/contacts-max-1200";
+	@import "for-business/for-business-max-1200";
+	@import "for-home/for-home-max-1200";
 }
 @media (max-width: 992px) {
 	@import "index/index-max-992";
@@ -17,6 +25,10 @@
 	@import "gallery/gallery-max-992";
 	@import "faq/faq-max-992";
 	@import "blog/blog-max-992";
+	@import "blog-item/blog-item-max-992";
+	@import "contacts/contacts-max-992";
+	@import "for-business/for-business-max-992";
+	@import "for-home/for-home-max-992";
 }
 @media (max-width: 767px) {
 	@import "index/index-max-767";
@@ -24,4 +36,8 @@
 	@import "gallery/gallery-max-767";
 	@import "faq/faq-max-767";
 	@import "blog/blog-max-767";
+	@import "blog-item/blog-item-max-767";
+	@import "contacts/contacts-max-767";
+	@import "for-business/for-business-max-767";
+	@import "for-home/for-home-max-767";
 }

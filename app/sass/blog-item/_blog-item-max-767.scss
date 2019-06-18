@@ -1,0 +1,11 @@
+.blogs-item{
+	&_wrapper{
+		& .row .col-md-2{
+			display: none;
+		}
+	}
+	&_img-box{
+		max-height: 226px;
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,67 @@
+.contacts_wrapper .container .row .col-md-12:first-child{
+	display: none;
+}
+.contacts_wrapper .container .row .col-md-4{
+	display: none;
+}
+.contacts_wrapper .fq-items dl > dt {
+	padding: 10px;
+}
+.contact-items dt p{
+	margin-left: 43px;
+}
+.contacts_wrapper .fq-items .faq-toggle{
+	display: none;
+}
+.contact-items dt{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	& p{
+		margin-left: 23px;
+		font-size: 12px;
+	}
+}
+.contacts_wrapper .fq-items dl > dt {
+	border:none;
+	flex-direction: column;
+	& div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 25px;
+		width: 100%;
+		& svg{
+			margin-right: 10px;
+		}
+	}
+	& a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		color: #FFFFFF;
+		font-family: Rubik-Bold;
+		font-size: 18px;
+		line-height: 22px;
+		height: 65px;
+		border-radius: 3px;
+		background-color: #3D7EBA;
+	}
+}
+.contact-items dt > svg{
+	margin-right: 10px;
+}
+.contacts_wrapper .fq-items dl.active dd{
+	padding-top: 0px;
+	border:none;
+}
+.contacts_wrapper .fq-items dd{
+	padding: 0px;
+}
+.contacts_wrapper{
+	& .contact-items dt div:not(.faq-toggle) p{
+		margin-left: 10px;
+		text-align: right;
+	}
+}

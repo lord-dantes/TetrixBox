@@ -1,7 +1,4 @@
 $faq-btn-size: 20px;
-*{
-	transform: translate3d(0,0,0);
-}
 .faq_wrapper .fq-items {
 		padding: 1px;
 	dl {
@@ -39,7 +36,7 @@ $faq-btn-size: 20px;
 	}
 	.faq-toggle {
 		margin-right: 20px;
-		margin-top: 20px;
+		margin-top: 15px;
 		position: absolute;
 		line-height: 1em;
 		text-align: center;
@@ -53,10 +50,10 @@ $faq-btn-size: 20px;
 		cursor: pointer;
 		transition: all 300ms;
 		& svg{
+			transform: rotateZ(0deg);
 			& g g{
 				fill:#4F4F4F;
 			}
-			transform: rotateZ(90deg);
 		}
 	}
 	dd {
@@ -71,7 +68,7 @@ $faq-btn-size: 20px;
 			margin-right: 25px;
 			margin-top: 13px;
 			& svg{
-				transform: rotateZ(-90deg);
+				transform: rotateZ(-180deg);
 			}
 		}
 		& svg g g{

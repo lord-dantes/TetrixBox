@@ -1,0 +1,66 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.for-business_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title.for-business_title Для бизнеса
+				.col-md-6
+					h2.for-business_subtitle Безопасное хранение #[br]вещей для Вашего бизнеса
+					.for-business-info_box
+						| Нужно на время арендовать бокс для хранения, чтобы куда-то пристроить домашние вещи? Затеяли ремонт в квартире, или хотите разгрузить её от "несезонных" вещей, освободить балкон или лоджию от колёс, лыж и прочих временно ненужных вещей? Или занимаетесь переездом офиса на новое место?
+					p.for-business-info_unline-p Мы с радостью поможем Вам выбрать подходящий бокс!
+					p.for-business-info_unline-p Предоставляем в аренду боксы для хранения вещей разных размеров.
+				.col-md-6
+					.for-business_box-img
+						img(src="img/business.png", alt="")
+	section.for-business_addon
+		.container
+			.row
+				.col-md-12
+					h2.for-business_addon-title Мы предлагаем
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="blog-item.html") Узнать подробнее
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="blog-item.html") Узнать подробнее
+				.col-md-4
+					.blog-item_box
+						.blog-item_img-box
+							img(src="img/garage3.png", alt="")
+						.blog-item_title Переезд или ремонт
+						.blog-item_info Планируете переезд или ремонт, а негде хранить мебель, технику и личные вещи? Аренда мини склада на любой срок решит проблему.
+						a(class="blog-item_details-info" href="blog-item.html") Узнать подробнее
+	section.clients-works_wrapper.for-business_addon
+		.container
+			.row
+				.col-md-12
+					h2.clients-works_title Почему клиенты работают #[br]именно с нами?
+				.col-md-12.clients-works_wrapper-xs-12
+					.clients-works_box
+						.clients-works_row
+							.clients-works_item
+								include ../../img/area.svg
+								p.clients-works_item-title Выберите #[br]параметры
+								p.clients-works_item-info Вы можете выбрать нужный Вам размес бокса и срок аренды
+							.clients-works_item
+								include ../../img/shield.svg
+								p.clients-works_item-title Забронируйте #[br]Ваш бокс
+								p.clients-works_item-info Вы можете сделать это по номеру телефона или онлайн
+							.clients-works_item
+								include ../../img/boxes.svg
+								p.clients-works_item-title Пользуйтесь #[br]услугой
+								p.clients-works_item-info Можете перевозить Ваши вещи на свой личный склад
+			.banner-info-box_btn
+				a(class="banner-info_link" href="#") Оставить заявку
+	include ../templates/footer.pug

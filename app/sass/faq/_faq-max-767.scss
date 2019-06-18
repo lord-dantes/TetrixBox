@@ -7,4 +7,10 @@ dl {
 	& .fq-items dl > dt{
 		padding: 13px 25px;
 	}
+	& .fq-items dd{
+		padding: 35px 0px;
+	}
+	& .fq-items .faq-toggle{
+			transform: rotateZ();
+	}
 }

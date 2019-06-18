@@ -1,0 +1,69 @@
+extends ../default.pug
+block pageContent
+	include ../templates/header.pug
+	section.contacts_wrapper.faq_wrapper
+		.container
+			.row
+				.col-md-12
+					h1.about-us_title.contact_title Контакты
+				.col-md-4
+					.contact-item_box
+						p
+							img(src="../img/placeholder.svg", alt="")
+							| Местоположение :
+						p Железнодорожное шоссе, 25
+				.col-md-4
+					.contact-item_box
+						p
+							img(src="../img/smartphone-call.svg", alt="")
+							| Телефоны :
+						p +380 (67) 730-57-75
+						p +380 (67) 730-57-75
+				.col-md-4
+					.contact-item_box
+						p
+							img(src="../img/share.svg", alt="")
+							| Социальные сети :
+						.footer_social-box.contact-social_box
+							ul.footer_social-items
+								li.footer_social-item
+									a(href="#")
+										include ../../img/facebook-logo-button.svg
+								li.footer_social-item
+									a(href="#")
+										include ../../img/instagram-logo.svg
+								li.footer_social-item
+									a(href="")
+										include ../../img/twitter-logo-button.svg
+								li.footer_social-item
+									a(href="#")
+										include ../../img/google-plus-logo-button.svg
+				.col-md-12
+					h2.about-us_title.contact_subtitle Наши склады
+				.col-md-12.fq-items.contact-items
+					dl
+						dd
+							hr
+							#map-4_build
+						dt
+							div
+								include ../../img/metrolog.svg
+								| Петровка
+								p Железнодорожное шоссе 25
+							a(href="#") Показать на карте
+							.faq-toggle
+								include ../../img/path.svg
+					dl
+						dd
+							hr
+							#map-5_build
+						dt
+							div
+								include ../../img/metrolog.svg
+								| Лебидска
+								p Железнодорожное шоссе 25
+							a(href="#") Показать на карте
+							.faq-toggle
+								include ../../img/path.svg
+	//- #map-three_build
+	include ../templates/footer.pug

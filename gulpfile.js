@@ -49,7 +49,7 @@ gulp.task('scripts', function() {
     return gulp.src([
         'app/libs/jquery/dist/jquery.min.js',
         'app/libs/owl.carousel/dist/owl.carousel.min.js',
-        'app/libs/simplelightbox-master/dist/simple-lightbox.js'
+        'app/libs/fancybox-master/dist/jquery.fancybox.min.js'
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
